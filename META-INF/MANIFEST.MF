@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SidePySide
+Bundle-SymbolicName: com.github.donkirkby.sidepyside;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.github.donkirkby.sidepyside.Activator
+Bundle-Vendor: GITHUB
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Import-Package: org.eclipse.compare,
+ org.eclipse.jface.text,
+ org.eclipse.jface.text.source,
+ org.python.pydev.core.callbacks,
+ org.python.pydev.editor,
+ org.python.pydev.editor.codefolding
