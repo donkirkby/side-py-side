@@ -94,6 +94,7 @@ public class AddComposite implements IPyEditListener, IPyEditListener4 {
 						}
 					}
 				});
+				new TextViewerSupport(displayViewer); // registers itself
 				
 			    splitter.setVisible(editorContent, true);
 			    splitter.setVisible(liveDisplay, true);
